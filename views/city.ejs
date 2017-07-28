@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<script src="//use.edgefonts.net/actor;yellowtail.js"></script>
+		<link rel="stylesheet" href="/css/style.css">
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="contanier">
+		
+			<div class="navbar navbar-default navbar-fixed-top">
+				<div class="contanier">
+					<div class="navbar-header">
+						<button type="button" class="nav-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="/" class="navbar-brand">iLoveMYCity</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav ">
+							<li><a href="/nepal">Neapl</a></li>
+							<li><a href="/india">India</a></li>
+							<li><a href="/srilanka">Srinaka</a></li>
+							<li><a href="/pakistan">Pakistan</a></li>
+							<li><a href="/china">China</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			 
+					<div>
+						<h1 align="center"><%=headline%></h1>  
+					</div>
+					<div class="row divRow">
+						<% for(var i=0;i< 4;i++){%>
+								<div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+								<img src="/images/<%=cityName%>/<%=cityName%>.jpg" class="img-rounded img" > 
+								  
+								</div>
+								
+						<%}%>
+						
+					</div>
+					<!-- <div class="row divRow">
+					<img src="/images/<%=cityName%>/<%=cityName%>-<%=i%>.jpg" class="img-rounded img" > 
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+							<img src="/images/china.jpg" class="img-rounded img">
+						</div>
+						<div class="col-sm-6 col-md-6 col-lg-6 col-xs-6">
+							<img src="/images/nepal.jpg" class="img-rounded img">
+						</div>
+					</div> -->
+			 
+			
+			  
+		</div>
+		
+	</body>
+</html>

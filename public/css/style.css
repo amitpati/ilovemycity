@@ -1,0 +1,16 @@
+body{
+	padding-top:70px !important;
+}
+.heading{
+	font-family: actor, sans-serif;
+	font-family: yellowtail, cursive;
+	    color: #4e4677;
+}
+.img{
+	height:300px;
+	width:600px;
+}
+.divRow{
+	padding-top:2%;
+	padding-left:2%;
+}
